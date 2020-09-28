@@ -1,8 +1,7 @@
 import React from 'react';
-import { FirstSection, HeaderContainer, Topo, Nome, Link1, Link2, Link3, Menu, H1, H2, RedesSociais, DivNome } from './styles';
+import { FirstSection, HeaderContainer, H1, H2, RedesSociais, DivNome } from './styles';
 import foto from '../img/foto.png'
 import github from '../img/github.png';
-import twitter from '../img/twitter.png';
 import whats from '../img/whats.png';
 import insta from '../img/insta.png';
 import linkedin from '../img/linkedin.png';
@@ -10,17 +9,7 @@ import linkedin from '../img/linkedin.png';
 
 const Header = () => {
     return (
-        <HeaderContainer>
-            <Topo>
-                <Nome>
-                    <a href="">Isaac</a>
-                </Nome>
-                <Menu>        
-                    <Link1 href="">quem sou</Link1>&nbsp;       
-                    <Link2 href="">projetos</Link2>&nbsp;       
-                    <Link3 href="">contato</Link3>
-                </Menu>            
-            </Topo>
+        <HeaderContainer>       
             <FirstSection>                
                 <img src={foto} alt="foto"/>
                 <DivNome>
@@ -32,11 +21,10 @@ const Header = () => {
                     
                 </DivNome>
                 <RedesSociais>
-                    <img src={github} alt="github"/>
-                    <img src={twitter} alt="twitter"/>
-                    <img src={whats} alt="whats"/>
-                    <img src={insta} alt="insta"/>
-                    <img src={linkedin} alt="linkedin"/>
+                    <a href="https://github.com/isaacam517" ><img src={github} alt="github"/></a>                   
+                    <a href="https://api.whatsapp.com/send?phone=5511965936391&text=Olá%20tudo%20bem?%20Seja%20Bem%20Vind@!" ><img src={whats} alt="whats"/></a>
+                    <a href="https://www.instagram.com/isaacmartiniano/" ><img src={insta} alt="insta"/></a>
+                    <a href="https://www.linkedin.com/in/isaac-martiniano-aa799a147/" ><img src={linkedin} alt="linkedin"/></a>
                 </RedesSociais>           
             </FirstSection>            
         </HeaderContainer>

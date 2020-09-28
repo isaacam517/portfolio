@@ -24,11 +24,11 @@ const ContrateMe = () => {
                     
                 </DivNome>
                 <RedesSociais>
-                    <img src={github} alt="github"/>
-                    <img src={twitter} alt="twitter"/>
-                    <img src={whats} alt="whats"/>
-                    <img src={insta} alt="insta"/>
-                    <img src={linkedin} alt="linkedin"/>
+                <a href="https://github.com/isaacam517" target="blank" ><img src={github} alt="github"/></a>
+                <a href="https://api.whatsapp.com/send?phone=5511965936391&text=Olá%20tudo%20bem?%20Seja%20Bem%20Vind@!" target="blank" ><img src={whats} alt="whats"/></a>
+                <a href="https://www.instagram.com/isaacmartiniano/" target="blank"><img src={insta} alt="insta"/></a>
+                <a href="https://www.linkedin.com/in/isaac-martiniano-aa799a147/" target="blank"><img src={linkedin} alt="linkedin"/></a>    
+                    
                 </RedesSociais>           
             </FirstSection>            
         </ContrateMeContainer>

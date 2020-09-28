@@ -44,8 +44,9 @@ export const RedesSociais = styled.div`
     gap: 16px;
         
     img{
-        width: 8%;
-        height: 6%;
-        margin-right: 3%;
+        width: 100%;
+        height: 80%;
+        margin-right: 5%;
+             
     }
 `

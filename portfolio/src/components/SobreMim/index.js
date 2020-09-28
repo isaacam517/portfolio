@@ -2,10 +2,6 @@ import React from 'react';
 import { SobreMimContainer, TextoSobreMim, Avatar, Button } from './styles';
 import avatar from '../img/avatar.png';
 
-
-
-
-
 const SobreMim = () => {
   return (
     <SobreMimContainer>
@@ -21,7 +17,7 @@ const SobreMim = () => {
             </p>
             <p>NodeJS | MySQL | HTML5 | CSS3 | JavaScript | React | C# | ASP.NET</p>
 
-            <Button>CV em PDF</Button>
+            <a href="https://drive.google.com/file/d/14QUSy3LnMrrRnQ8wkTjhL77Mp5MEm6im/view?usp=sharing" target="blank"><Button>CV em PDF</Button></a>
         </TextoSobreMim>
         <Avatar>
             <img src={avatar} alt="avatar"/>
