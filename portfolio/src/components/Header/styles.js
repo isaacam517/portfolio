@@ -4,76 +4,6 @@ export const HeaderContainer = styled.div`
 
 `
 
-export const Topo = styled.div`
-    width:100%;
-    height: 5vh;
-    display: flex;
-    justify-content: space-between;  
-    `
-
-export const Menu = styled.div`    
-    a {
-        text-decoration: none;
-        margin-right: 16px;
-    }
-`
-
-export const Nome = styled.div`
-    width: 75px;
-    height: 19px;
-    font-family: Montserrat;
-    font-size: 21px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: -0.28px;  
-    a {
-        text-decoration: none;
-        color: #8d1c31;
-    }
-` 
-
-export const Link2 = styled.a`
-    width: 64px;
-    height: 19px;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: -0.22px;
-    text-align: center;    
-    color: #063447;  
-` 
-export const Link1 = styled.a`
-    width: 80px;
-    height: 19px;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: -0.22px;
-    text-align: center;    
-    color: #8d1c31;
-  
-` 
-export const Link3 = styled.a`
-    width: 61px;
-    height: 19px;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: -0.22px;
-    text-align: center;    
-    color: #063447;  
-` 
 export const FirstSection = styled.div`
     display:flex;
     
@@ -120,15 +50,22 @@ export const H1 = styled.h1`
     color: #d97824;
 `
 export const RedesSociais = styled.div`
-    width: 25%;
+    background-color: green;
+    position: fixed;
+    right: 8px;
+    top: 35%;
+    width: 2,5%;
+    padding: 8px;
+    border-radius: 10px;
     justify-content: center;    
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 16px;
     img{
-        width: 8%;
-        height: 6%;
+        width: 100%;
+        height: 80%;
         margin-right: 5%;
+             
     }
 `

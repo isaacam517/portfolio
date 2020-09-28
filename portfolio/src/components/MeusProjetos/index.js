@@ -22,7 +22,7 @@ const MeusProjetos = () => {
                         Modelo de uma planilha com atividades diárias, podendo ser adicionadas
                         e excluídas, armazenadas em um banco de dados, e segurando princípio de Desktop First.
                     </p>
-                    <Button>Ver no GitHub</Button>
+                    <a href="https://github.com/isaacam517/planner" target="blank"><Button>Ver no GitHub</Button></a>                    
                 </div>
             </Projeto1>
             <Projeto2>
@@ -36,7 +36,7 @@ const MeusProjetos = () => {
                         Conversor de moedas, com endpoints atualizando a cada 30 segundos 
                         seguindo princípio de Desktop First.
                     </p>
-                    <Button>Ver no GitHub</Button>
+                    <a href="https://github.com/isaacam517/fast-converter" target="blank"><Button>Ver no GitHub</Button></a>
                  </div>
             </Projeto2>
             <Projeto3>
@@ -50,11 +50,12 @@ const MeusProjetos = () => {
                         Desenvolvimento de aplicações web utilizando HTML, CSS e JavaScript.
                         Criação de sites responsivos seguindo princípio de Mobile First.
                     </p>
-                    <Button>Ver no GitHub</Button>
+                    <a href="https://github.com/isaacam517/labex" target="blank"><Button>Ver no GitHub</Button></a>
                 </div>
-            </Projeto3>
+            </Projeto3>        
+            <a href="https://github.com/isaacam517?tab=repositories" target="blank"><Button>Ver Todos</Button></a>       
         </DivSkills>
-        <Button>Mais Projetos</Button>
+
     </MeusConhecimentosContainer>
   );
 }

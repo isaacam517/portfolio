@@ -195,10 +195,11 @@ export const Projeto3 = styled.div`
 `
 
 export const Button = styled.button`
-    border-radius: 8px;
+        border-radius: 8px;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
         background-color: #bf213e;
-        width: 15%;
+        width: 10vw;
+        height: 5vh;
         padding: 1%;
         margin-top: 8%;
         font-family: Montserrat;
