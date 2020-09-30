@@ -46,6 +46,7 @@ export const Nome = styled.div`
     }
 ` 
 export const Link2 = styled.a`
+    cursor: pointer;
     width: 64px;
     height: 19px;
     font-family: Montserrat;
@@ -59,6 +60,7 @@ export const Link2 = styled.a`
     color: #063447;  
 ` 
 export const Link1 = styled.a`
+    cursor: pointer;
     width: 80px;
     height: 19px;
     font-family: Montserrat;
@@ -73,6 +75,7 @@ export const Link1 = styled.a`
   
 ` 
 export const Link3 = styled.a`
+    cursor: pointer;
     width: 61px;
     height: 19px;
     font-family: Montserrat;
@@ -87,6 +90,7 @@ export const Link3 = styled.a`
 ` 
 export const NavTop = styled.div`  
   a img {
+    cursor: pointer;
     position: fixed;
     bottom: 8px;
     right: 8px;    

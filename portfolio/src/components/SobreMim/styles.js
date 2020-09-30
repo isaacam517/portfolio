@@ -38,23 +38,36 @@ export const TextoSobreMim = styled.div`
         letter-spacing: -0.16px;
         color: #ffffff;
     }
-`
+    a {
+        width: 40%;
+       button{
+        width: 100%;
+       } 
+    }
+    `
+
+
+
 export const Button = styled.button`
-    border-radius: 8px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-    background-color: #bf213e;
-    width: 40%;
-    padding: 2%;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: -0.28px;
-    text-align: center;
-    color: #ffffff; 
+        cursor: pointer;
+        border-radius: 8px;
+        border: none;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+        background-color: #bf213e;
+        padding: 4%;
+        width: 40%;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.28px;
+        text-align: center;
+        color: #ffffff;
 `
+
+
 
 export const Avatar = styled.div`
     img {

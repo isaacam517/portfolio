@@ -1,7 +1,6 @@
 import React from 'react';
 import { FirstSection, ContrateMeContainer, H1, RedesSociais, DivNome } from './styles';
 import github from '../img/github.png';
-import twitter from '../img/twitter.png';
 import whats from '../img/whats.png';
 import insta from '../img/insta.png';
 import linkedin from '../img/linkedin.png';

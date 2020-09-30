@@ -67,7 +67,9 @@ export const Projeto1 = styled.div`
         
     }
     button {
+        cursor: pointer;
         border-radius: 8px;
+        border: none;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
         background-color: #bf213e;
         width: 40%;
@@ -121,7 +123,9 @@ export const Projeto2 = styled.div`
         
     }
     button {
+        cursor: pointer;
         border-radius: 8px;
+        border: none;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
         background-color: #33a6a6;
         width: 40%;
@@ -176,7 +180,9 @@ export const Projeto3 = styled.div`
         
     }
     button {
+        cursor: pointer;
         border-radius: 8px;
+        border: none;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
         background-color:  #d97824;
         width: 40%;
@@ -190,14 +196,15 @@ export const Projeto3 = styled.div`
         letter-spacing: -0.28px;
         text-align: center;
         color: #ffffff;
-    }
-    
+    }    
 `
 
 export const Button = styled.button`
         border-radius: 8px;
+        border: none;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
         background-color: #bf213e;
+        cursor: pointer;
         width: 10vw;
         height: 5vh;
         padding: 1%;
