@@ -16,15 +16,15 @@ const Header = () => {
                     
                     <H2>Eu sou </H2>
                     <H1>Isaac Martiniano</H1>
-                    <h4>Desenvolvedor Web Front End</h4>
+                    <h4>Desenvolvedor Web Front-end</h4>
                     <p>Apaixonado por tecnologia e programação</p>
                     
                 </DivNome>
                 <RedesSociais>
-                    <a href="https://github.com/isaacam517" ><img src={github} alt="github"/></a>                   
-                    <a href="https://api.whatsapp.com/send?phone=5511965936391&text=Olá%20tudo%20bem?%20Seja%20Bem%20Vind@!" ><img src={whats} alt="whats"/></a>
-                    <a href="https://www.instagram.com/isaacmartiniano/" ><img src={insta} alt="insta"/></a>
-                    <a href="https://www.linkedin.com/in/isaac-martiniano-aa799a147/" ><img src={linkedin} alt="linkedin"/></a>
+                    <a href="https://github.com/isaacam517" target="blank"><img src={github} alt="github"/></a>                   
+                    <a href="https://api.whatsapp.com/send?phone=5511965936391&text=Olá%20tudo%20bem?%20Seja%20Bem%20Vind@!" target="blank"><img src={whats} alt="whats"/></a>
+                    <a href="https://www.instagram.com/isaacmartiniano/" target="blank"><img src={insta} alt="insta"/></a>
+                    <a href="https://www.linkedin.com/in/isaac-martiniano-aa799a147/" target="blank"><img src={linkedin} alt="linkedin"/></a>
                 </RedesSociais>           
             </FirstSection>            
         </HeaderContainer>

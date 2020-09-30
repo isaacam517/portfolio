@@ -8,7 +8,7 @@ const MeusConhecimentos = () => {
             <h4>Meus Conhecimentos</h4>
             <DivSkills>
             <Skills>
-                <h2>Fornt-end</h2>
+                <h2>Front-end</h2>
                 <p> Desenvolvimento de aplicações web utilizando HTML, CSS e JavaScript.
                  Criação de sites responsivos seguindo princípio de Mobile First.</p>
 
