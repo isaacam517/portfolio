@@ -15,10 +15,9 @@ const SobreMim = () => {
                 é o caminho do êxito!" Charlie Chaplin. A resiliência me define, juntamente com essa
                 vontade incansável de aprender! O céu é o limite!        
             </p>
-            <p>NodeJS | MySQL | HTML5 | CSS3 | JavaScript | React | C# | ASP.NET</p>
+            <p>NodeJS | MySQL | HTML5 | CSS3 | JavaScript | React | C# | ASP.NET</p>           
             
-            {/* <><Button>CV em PDF</Button></a> */}
-            <a href=""><Button >CV em PDF</Button></a>
+            <a href="https://drive.google.com/file/d/14QUSy3LnMrrRnQ8wkTjhL77Mp5MEm6im/view?usp=sharing" target="blank"><Button >CV em PDF</Button></a>
         
         </TextoSobreMim>
         <Avatar>

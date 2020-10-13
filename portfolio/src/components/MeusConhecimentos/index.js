@@ -10,16 +10,10 @@ const MeusConhecimentos = () => {
             <Skills>
                 <h2>Front-end</h2>
                 <p> Desenvolvimento de aplicações web utilizando HTML, CSS e JavaScript.
-                 Criação de sites responsivos seguindo princípio de Mobile First.</p>
-
-                
-            </Skills>
-            <Skills>
-                <h2>Back-end</h2>
-                <p> Aplicações utilizando NodeJS, Typescript e MySQL. Criação de API´s para
-                    comunicação com front-end seguindo princípio de Clean Code.      
-                </p>
-            </Skills>
+                  Com React.JS, Git, alguns projetos no repositório do GitHub. 
+                 Criação de sites responsivos seguindo princípio de Mobile First.
+                 Também iniciante em C#, ASP.NET Core MVC, com MySQL</p>
+            </Skills>           
         </DivSkills>
     </MeusConhecimentosContainer>
   );

@@ -15,14 +15,16 @@ const MeusProjetos = () => {
                 <div>
                     <img src={macbook} alt="macbook"/></div>
                 <div>
-                    <h2>Planner</h2>
+                    <h2>Figma Land</h2>
                     <h3>Front-end</h3>
                     <p> 
-                        Desenvolvimento de aplicações web utilizando HTML, CSS e JavaScript consumindo API's.
-                        Modelo de uma planilha com atividades diárias, podendo ser adicionadas
-                        e excluídas, armazenadas em um banco de dados, e segurando princípio de Desktop First.
+                        Landing Page com REACT.JS, desenvolvimento para desktop e mobile(inspecionar iPhone X )
+                        menu com efeito scroll, menu nav escondido, toda a aplicação com uso do HTML5, 
+                        CSS3, e JavaScript com REACT.                     
                     </p>
                     <a href="https://github.com/isaacam517/planner" target="blank"><Button>Ver no GitHub</Button></a>                    
+                    <a href="http://teste-help-ecommerce-isaac-martiniano.surge.sh/" target="blank"><Button>Visitar SITE</Button></a>
+
                 </div>
             </Projeto1>
             <Projeto2>

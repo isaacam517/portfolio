@@ -83,6 +83,7 @@ export const Projeto1 = styled.div`
         letter-spacing: -0.28px;
         text-align: center;
         color: #ffffff;
+        margin-right: 32px;
     }
 `
 

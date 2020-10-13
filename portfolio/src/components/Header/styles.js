@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const HeaderContainer = styled.div`
-
+    height:100vh;
 `
 
 export const FirstSection = styled.div`
@@ -10,13 +10,13 @@ export const FirstSection = styled.div`
     background-color:#8d1c31;
 
     img {
-        width:30vw;
-        height:70vh;
+        width:35vw;
+        height:100vh;
     }    
     h4, p {
         margin-left: 20%;
         color: white;
-        margin:1% 20%;
+        margin:3% 20%;
     }
 `
 export const DivNome = styled.div`  

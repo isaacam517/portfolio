@@ -46,8 +46,6 @@ export const TextoSobreMim = styled.div`
     }
     `
 
-
-
 export const Button = styled.button`
         cursor: pointer;
         border-radius: 8px;
@@ -66,8 +64,6 @@ export const Button = styled.button`
         text-align: center;
         color: #ffffff;
 `
-
-
 
 export const Avatar = styled.div`
     img {
